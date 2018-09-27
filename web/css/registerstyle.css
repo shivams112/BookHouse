@@ -1,0 +1,50 @@
+body{
+     background:url(../images/reg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    
+}
+form{
+   
+    
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 5em;
+}
+table{
+    padding: 20px;
+}
+
+tr{
+    padding: 20px;
+}
+td{
+    padding: 10px;
+    font-size: 1.3em;
+    font-weight: 100;
+}
+#pp{
+    font-size: 2em;
+}
+#but{
+    padding: 5px;
+    width: 80px;
+    border-radius: 10px;
+    float: left;
+}
+span{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;;
+    font-weight: 100;
+    
+}
+
+footer{
+    position: absolute;
+    bottom: 2%;
+    left: 40%;
+}
+div{
+    
+   
+}

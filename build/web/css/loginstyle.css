@@ -1,0 +1,48 @@
+body{
+     background:url(../images/bg.jpg) no-repeat center center fixed;
+    background-size: cover;
+    //font-family: 'Concert One', cursive;
+}
+form{
+   
+    
+}
+h1{
+    font-family: 'Lobster', cursive;
+    font-size: 5em;
+}
+table{
+    padding: 20px;
+    border: 4px solid lightcoral;
+    border-radius: 10px;
+}
+
+tr{
+    padding: 20px;
+}
+td{
+    padding: 5px;
+    font-size: 1.3em;
+    font-weight: 100;
+}
+p{
+    font-size: 2em;
+}
+#but{
+    padding: 5px;
+    width: 80px;
+    border-radius: 10px;
+    float: left;
+}
+span{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;;
+    font-weight: 100;
+    
+}
+
+footer{
+    position: absolute;
+    bottom: 2%;
+    left: 40%;
+}

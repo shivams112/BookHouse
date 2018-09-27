@@ -1,0 +1,65 @@
+<HTML>
+<HEAD>
+<TITLE>Administering Shopping Cart</TITLE>
+<style>
+    table{
+        border-collapse: collapse;
+    }
+    th{
+        padding-bottom: 3em;
+        font-size: 1.5em;
+    }
+    a{
+        border: 2px solid black;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: black;
+        color: white;
+    }
+    h2{
+        font-size: 2em;
+    }
+    a:hover{
+        text-decoration: none;
+    }
+    footer{
+    position: absolute;
+    bottom: 2%;
+    left: 40%;
+}
+</style>
+<link href="https://fonts.googleapis.com/css?family=Concert+One|Lobster" rel="stylesheet">
+</HEAD>
+<BODY style="background:url(images/reg.jpg) no-repeat center center fixed;
+    background-size: cover;">
+	<CENTER>
+	<H1 style="font-family: 'Lobster', cursive;
+                font-size: 5em;"> BookHouse<span style="font-family: 'Lobster', cursive;font-size: 50px;font-weight: 100;">.com</span> </H1>
+	</CENTER>
+	<hr><br><br>
+	<h2>Welcome Administrator</h2><br>
+	<Form name="admin" method="POST">
+            <TABLE width=100% border="0" cellpadding="2" cellspacing="0"style="padding: 20px;">
+	<TR> 
+   		<th align = "left" width="4%"></th> 
+   		<th align = "left" width="20%"></th> 
+   		<th align = "left" width="38%"></th> 
+   		<th align = "left" width="38%"></th> 
+   	</TR>
+	<TR>
+   		<TH>1</TH>	
+   		<TH align = "left">BOOK</TH>
+   		<TH><a href="Insert.jsp">Insert New Book Details</a></TH>
+   		<TH><a href="Modify.jsp">Modify Book Details</a></TH>
+	</TR>
+        <TR>
+   		<TH>2</TH>	
+   		<TH align = "left">CATEGORY</TH>
+   		<TH><a href="Insert_Category.jsp">Insert Book Category</a></TH>
+   		<TH><a href="Update_Category.jsp">Modify Book Category</a></TH>
+	</TR>
+        <footer>
+            &COPY; 2018 BookHouse.com | All Rights Reserved
+        </footer>
+</BODY>
+</HTML>

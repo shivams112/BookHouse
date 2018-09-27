@@ -1,0 +1,56 @@
+<html>
+<head>
+<title>Login</title>
+<link rel="stylesheet" href="css/loginstyle.css">
+<link href="https://fonts.googleapis.com/css?family=Concert+One|Lobster" rel="stylesheet">
+</head>	
+<body>
+	<CENTER>
+            <H1> BookHouse<span>.com</span> </H1>
+	</CENTER>
+	<SCRIPT language="JavaScript">
+  	function validate()
+  	{
+	  	if(document.frm.UserName.value==""||document.frm.Password.value=="")
+		{
+  			alert("UserName or Password cannot be blank!!");
+			return;
+  		}
+  	  	document.frm.action="Validate.jsp";
+  		document.frm.submit();
+  	}
+	</SCRIPT>
+	<form name = frm method="POST">
+            <p align="center"> LOGIN</p>
+  	<TABLE ALIGN="center" height="57">
+  	<TR>
+  		<TD >
+        	<b>UserName:</b>
+  		</TD>
+  		<TD >	
+    		<input type="text" name="UserName" size="20" tabindex="1">
+     		</TD>
+   	</TR>
+   	<TR>
+    		<TD >
+        	<b>Password:</b>
+    		</TD>
+    		<TD >
+    		<input type="password" name="Password" size="20" tabindex="2">
+    		</TD>
+    	<TR align="center">
+    		<TD colspan=2>
+                    <input type="button" value="  Login  " name="B1" onclick="validate();" tabindex="3" id="but">
+    		</TD>
+    	</TR>
+    	<TR >
+  		<TD ><font size="4">New User?</font></TD>
+  		<TD><a href="NewUser.htm"><font size="4">Register</font></a></TD>
+  	</TR>
+  	</TABLE>
+  	</form>
+        <footer>
+            &COPY; 2018 BookHouse.com | All Rights Reserved
+        </footer>
+</body>
+</HTML>
